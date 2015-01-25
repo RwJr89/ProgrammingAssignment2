@@ -11,8 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
   setInvMatrix <- function(matrix) m <<- matrix
   getInvMatrix <- function() m
   list(set = set, get = get,setInvMatrix = setInvMatrix,getInvMatrix = getInvMatrix)
-  
-}
+  }
 
 ## Computing the inverse of a square matrix
 
