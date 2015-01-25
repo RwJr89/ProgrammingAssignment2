@@ -3,7 +3,10 @@
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
-  set <- function(y) {x <<- y; m <<- NULL}
+  set <- function(y) {
+          x <<- y
+          m <<- NULL
+  }
   get <- function() x
   setInvMatrix <- function(matrix) m <<- matrix
   getInvMatrix <- function() m
